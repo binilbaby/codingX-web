@@ -437,16 +437,4 @@ img {
     margin-bottom: 40%;
   }
 }
-/* In your CSS file or component */
-.slick-slider {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.slick-slide {
-  flex: 0 0 auto;
-  margin-right: 0; /* Remove right margin between slides */
-  padding-right: 0; /* Remove right padding between slides */
-}
-
 

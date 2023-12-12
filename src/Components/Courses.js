@@ -1,6 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import section4course1 from "../Assets/c-ximage.png";
 import section4course2 from "../Assets/group-18.png";
 import section4course3 from "../Assets/group-19.png";
@@ -117,10 +115,8 @@ const Courses = () => {
         id="courses"
       >
         <h1 className="EXPLORE-OUR-COURSES">EXPLORE OUR COURSES</h1>
-
         <div className="slider-wrapper">
-          <Carousel showArrows={true} infiniteLoop={true} autoPlay={false} interval={3000} showThumbs={true}>
-          {/* <Slider {...settings}> */}
+        <Slider {...settings}>
             {courses.map((course, index) => (
               <a href={course.link} key={index} className="image-item" target="_blank" rel="noopener noreferrer">
                 <img src={course.image} alt={`Image ${index + 1}`} />
@@ -132,9 +128,7 @@ const Courses = () => {
                 </div>
               </a>
             ))}
-          {/* </Slider> */}
-          </Carousel>
-       
+          </Slider>
         </div>
       </div>
     </div>

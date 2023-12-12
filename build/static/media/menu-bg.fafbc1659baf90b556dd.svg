@@ -1,0 +1,16 @@
+<svg width="360" height="640" viewBox="0 0 360 640" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="33.466%" id="2ler3jg9lb">
+            <stop stop-color="#B389FF" stop-opacity=".24" offset="0%"/>
+            <stop stop-color="#6520FF" stop-opacity="0" offset="100%"/>
+        </radialGradient>
+        <path id="qjgcrm7qca" d="M0 0h360v640H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#23293D" d="M0 0h360v640H0z"/>
+        <mask id="b6fi0qlxkc" fill="#fff">
+            <use xlink:href="#qjgcrm7qca"/>
+        </mask>
+        <circle fill="url(#2ler3jg9lb)" mask="url(#b6fi0qlxkc)" cx="180.5" cy="319.5" r="351.5"/>
+    </g>
+</svg>

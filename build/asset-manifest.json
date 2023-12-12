@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9419adb7.css",
+    "main.js": "/static/js/main.153be9fd.js",
+    "static/media/get-certified.png": "/static/media/get-certified.cf018bd3bf75d8ba104c.png",
+    "static/media/first-sectionbg3x.png": "/static/media/first-sectionbg3x.3276de15a40658d7e49c.png",
+    "static/media/exper-curated.png": "/static/media/exper-curated.dcf15e5cd2eb0954610c.png",
+    "static/media/first-sectionbg2x.png": "/static/media/first-sectionbg2x.620cb53611611447f2dd.png",
+    "static/media/bgimg.svg": "/static/media/bgimg.b3020a5306bcbc91e099492c46c493db.svg",
+    "static/media/group-9.png": "/static/media/group-9.3c126bbd905d0b12087d.png",
+    "static/media/homeimage.png": "/static/media/homeimage.a09a5f3b9c6bcea87723.png",
+    "static/media/topic-covering.png": "/static/media/topic-covering.82f6a4b3fc7dc5d92c92.png",
+    "static/media/group-18.png": "/static/media/group-18.19af28f864b1269979f1.png",
+    "static/media/group-19.png": "/static/media/group-19.a2f21a4edeeb60470ab7.png",
+    "static/media/newcourse1.png": "/static/media/newcourse1.7526611ff7de0bf0f84f.png",
+    "static/media/interactive-content.png": "/static/media/interactive-content.972946e60a4753b28a1c.png",
+    "static/media/c-ximage.png": "/static/media/c-ximage.cd30e33b9fad2cb35fd9.png",
+    "static/media/newcourse2.png": "/static/media/newcourse2.41d774ff636a0b210ade.png",
+    "static/media/bite-sized.png": "/static/media/bite-sized.4123b652e6b5c5946895.png",
+    "static/media/first-sectionbg.png": "/static/media/first-sectionbg.b5eb21c1430d8ed0a297.png",
+    "static/media/mobile-logo.svg": "/static/media/mobile-logo.9c118e72e410e59390c861bf3f4b091f.svg",
+    "static/media/coding-x-logo.svg": "/static/media/coding-x-logo.3691beebe680e3f6a28e0e12720dbbc8.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/menu-bg.svg": "/static/media/menu-bg.fafbc1659baf90b556dd.svg",
+    "static/media/list-alt-white-18-dp.svg": "/static/media/list-alt-white-18-dp.d100f1cb4331de5afccad09cbe1dae0e.svg",
+    "index.html": "/index.html",
+    "static/media/comment-white-18-dp.svg": "/static/media/comment-white-18-dp.f25cdcafad619b1c41de418ed5f80faa.svg",
+    "static/media/menu-white-18-dp-1.svg": "/static/media/menu-white-18-dp-1.e4dc3168b7f25c465d0685c5fb0e814c.svg",
+    "static/media/library-books-white-18-dp.svg": "/static/media/library-books-white-18-dp.32610d458929490899a10fe401de7cb1.svg",
+    "static/media/home-white-18-dp.svg": "/static/media/home-white-18-dp.8318ff9ab95c90f49ba112e089b5bf13.svg",
+    "static/media/close.svg": "/static/media/close.cf954eea08fd6f9f9da4ddf6ce95c1c2.svg",
+    "main.9419adb7.css.map": "/static/css/main.9419adb7.css.map",
+    "main.153be9fd.js.map": "/static/js/main.153be9fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9419adb7.css",
+    "static/js/main.153be9fd.js"
+  ]
+}
