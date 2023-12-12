@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Lato;
+}
+
+code {
+  font-family: Lato;
+}
+
+img.Group-4 {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Automatically adjust the height based on the width */
+  padding: 5%; /* Adjust padding based on your design */
+  object-fit: contain;
+}

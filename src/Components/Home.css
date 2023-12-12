@@ -1,0 +1,308 @@
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  margin: 0 3rem;
+  background-image: url("../Assets/bgimg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 134vh;
+  margin: 0;
+  margin-top: -250px;
+}
+.download-link{
+  text-decoration: none;
+  }
+  .Rectangle:hover {
+    background-color: #fff; 
+  }
+  .Rectangle:hover .Download-Now {
+    color: #000;
+  }
+.Group-3 {
+  width: 20.25rem;
+  height: 34.69rem;
+  object-fit: contain;
+  margin-right: 7rem;
+  position: relative;
+  top: 28vh;
+}
+
+.Coding-X-A-New-Way {
+  width: 25rem;
+  height: 1.563rem;
+  margin: 0.125rem 3.438rem 1.625rem 45.625rem;
+  font-family: Lato;
+  font-size: 1.225rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-right: 5rem;
+  position: relative;
+  top: 23vh; 
+}
+
+.Rectangle {
+  width: 8rem;
+  height: 1.25rem;
+  padding: 1.875rem 12.188rem 1.875rem;
+  border-radius: 3.75rem;
+  border: 0.125rem solid #fff;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 22vh; 
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Download-Now {
+  font-family: Lato;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.Group-16 {
+  width: 1440px;
+  height: 1210px;
+  object-fit: contain;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-image: url("../Assets/rectangle-copy-2.png");
+  width: 100%;
+  height: 105px;
+  object-fit: contain;
+  text-align: center;
+  margin-top: -80px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+}
+
+.Privacy-Policy,
+.Legal {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: Lato;
+  margin: 0 5px; /* Adjust the margin as needed */
+}
+
+.Privacy-Policy:hover,
+.Legal:hover {
+  color: #007bff;
+}
+
+.Privacy-Policy:active,
+.Legal:active {
+  color: rgb(132, 0, 255);
+}
+
+.-Rightsol-Pvt-Ltd {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-top: 5px; 
+}
+
+
+.Privacy-Policy-Leg {
+  width: 148px;
+  height: 19px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.-Rightsol-Pvt-Ltd {
+  width: 181px;
+  height: 19px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .first-section {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    /* background-image: url("../Assets/first-sectionbg2x.png"); */
+    justify-content: center; 
+    padding: 0.2rem 0; 
+    background-size: contain;
+    height: 40vh;
+    min-height: 50vh;
+    margin-left: 0vw;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+  }
+
+  .Group-3 {
+    display: none; 
+  }
+
+  .Coding-X-A-New-Way {
+    width: 80%;
+    max-width: 25rem;
+    height: auto;
+    margin: 0; 
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  .Rectangle {
+    width: 60%; 
+    padding: 1rem 2rem; 
+    margin: 0 auto; 
+    margin-bottom: 4rem;
+    cursor: pointer;
+  }
+
+  .Download-Now {
+    font-size: 1rem; 
+    cursor: pointer;
+  }
+  .download-link{
+  text-decoration: none;
+  }
+  .footer {
+    background-image: url("../Assets/rectangle-copy-2.png");
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: -40px;
+  }
+
+  .Privacy-Policy-Leg {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+  }
+
+  .-Rightsol-Pvt-Ltd {
+    font-size: 1em;
+  }
+}
+
+@media (width: 820px) {
+  .Group-3 {
+   display: none;
+  }
+  .first-section{
+    background-size: cover;
+    width: 100%;
+  }
+  .Coding-X-A-New-Way{
+    margin-top: 120vh;
+   margin-right: 20vw;
+  }
+
+  .Rectangle{
+    margin-right: 15vw;
+  }
+}
+
+
+@media screen and (min-width: 477px) and (max-width: 765px) {
+  .first-section{
+    background-size: cover;
+    height: 110vh;
+    background-position: top -34%; 
+  }
+  .Coding-X-A-New-Way{
+    margin-top: 90vh;
+  }
+  .Rectangle{
+    margin-bottom: 20vh;
+  }
+}
+@media screen and (min-width: 766px) and (max-width: 770px) {
+  .first-section{
+    background-size: cover;
+    height: 110vh;
+    background-position: top -34%; 
+  }
+  .Coding-X-A-New-Way{
+    margin-top: 90vh;
+  }
+  .Rectangle{
+    margin-bottom: 20vh;
+  }
+  .Group-3{
+    display: none;
+  }
+}
+
+@media (width: 480px)  {
+  .first-section{
+    background-size: cover;
+    height: 110vh;
+    background-position: top -34%; 
+  }
+  .Coding-X-A-New-Way{
+    margin-top: 90vh;
+  }
+  .Rectangle{
+    margin-bottom: 20vh;
+  }
+  .Group-3{
+    display: none;
+  }
+}

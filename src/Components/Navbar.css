@@ -1,0 +1,173 @@
+/* Components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  z-index: 1000; /* Add this line to increase z-index */
+  position: relative; /* Add this line to make z-index work */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.Coding-X_Logo {
+  width: 131px;
+  height: 48px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center; /* Align the links vertically with the logo */
+}
+
+.Home,
+.Features,
+.Testimonials,
+.Courses ,
+.Privacy-Policy-for-navbar{
+  margin: 0 10px; 
+  font-family: Lato;
+  font-size: 20px; 
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+  white-space: nowrap; 
+}
+
+.nav-links a,
+.Privacy-Policy-for-navbar {
+  text-decoration: none;
+}
+
+/* Add white underline slightly below the text when links are hovered or focused */
+.nav-links a:hover,
+.nav-links a:focus {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-skip: ink;
+  text-underline-offset: 2px; /* Adjust the offset as needed */
+  margin-top: 4px;
+}
+
+/* Add white color for the underline when links are clicked */
+.nav-links a:active {
+  text-decoration-color: white;
+}
+
+.menu-icon {
+  display: none; /* Hide the menu icon by default */
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none; /* Hide the mobile menu by default */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../Assets/menu-bg.svg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  display: none;
+  z-index: 9999; 
+  overflow: hidden; 
+  padding-top: 20px; 
+  padding-top: 0; 
+  justify-content: center;
+}
+
+.mobile-menu a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Remove underline */
+  font-size: 24px; /* Increase font size */
+  margin-bottom: 30px; /* Add vertical gap */
+}
+
+.mobile-menu img, .privacy_policy_icon {
+  margin-right: 10px;
+}
+.close-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.mobile-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Responsive font size for smaller screens */
+@media (max-width: 768px) {
+  .Home,
+  .Features,
+  .Testimonials,
+  .Courses,
+  .Privacy-Policy-for-navbar {
+    font-size: 16px !important; /* Adjust font size for smaller screens */
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu.open {
+    display: flex;
+  }
+  .mobile-logo {
+    width: 120px;
+    height: 40px;
+  }
+  body.mobile-menu-open {
+    overflow: hidden;
+  }
+}

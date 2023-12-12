@@ -1,0 +1,400 @@
+.WHAT-USERS-SAY-ABOUT {
+  font-size: 1.5rem; /* 24px */
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 9.375rem; /* 150px */
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem; /* 40px */
+  margin: 0 2.5rem 2.5rem 2.5rem;
+}
+
+.flexitem {
+  width: 30%;
+  height: 28rem;
+  background-color: rgba(27, 35, 59, 0);
+  border-radius: 2rem;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  flex-grow: 1;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: rgb(132, 0, 255);
+  transition: border-color 0.3s;
+  padding: 1rem;
+}
+
+.flexitem:hover {
+  border-color: rgb(83, 39, 155);
+}
+
+.sec3 .img-container {
+  position: absolute;
+  margin-left: 10rem; /* 150px */
+  background-color: var(--dark);
+  margin: 8.7rem 17.2rem 35.6rem 14.9rem; /* 87px 172px 356px 149px */
+  object-fit: contain;
+}
+
+.name {
+  margin: 1rem 0 1rem 0; /* 10px */
+  font-size: 0.9375rem; /* 15px */
+}
+
+.Student {
+  margin: 0 2.5rem 0 2.5rem;
+  font-size: 1rem; /* 16px */
+  opacity: 0.42;
+  font-weight: normal;
+  font-stretch: normal;
+  color: rgb(255, 255, 255);
+}
+
+.description {
+  position: relative; /* Add position property */
+  top: -3.3rem; /* Adjust the value to move it higher */
+  margin: 1.5rem 2.5rem 0 2.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 2.06;
+  width: 23.625rem;
+  height: 14.4375rem;
+  overflow-y: auto;
+  max-height: 150px;
+}
+
+.section3user3,
+.section3user2,
+.section3user1 {
+  margin-top: -3.75rem; /* -60px */
+}
+
+.Path {
+  opacity: 0.06;
+  display: block;
+  size: 1.875rem; /* 30px */
+  margin-left: -16.875rem; /* -270px */
+  margin-top: -1.775rem; /* -30px */
+}
+
+@media (max-width: 768px) {
+  .flexbox {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  .flexitem {
+    margin: 1.25rem 0; /* 20px */
+    width: auto;
+  }
+
+  .sec3 .img-container {
+    /* Center the image on smaller screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Path {
+    display: none;
+  }
+
+  .flexbox {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+
+  .flexitem {
+    margin: 1.25rem 0;
+    width: auto;
+    height: auto;
+  }
+  .Path {
+    font-size: 0.4rem;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec3 .img-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description {
+    margin: 0.625rem 0;
+    font-size: 0.6rem; 
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 1rem;
+    top: 0.8rem;
+  }
+  .section3user3,
+  .section3user2,
+  .section3user1 {
+    margin-top: -2.75rem;
+    width: auto;
+    height: auto;
+  }
+  .Student {
+    font-size: 0.8rem; /* Adjust the font-size to your desired value for smaller screens */
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  /* CSS rules for screens with a width of 820 or less */
+  .description {
+    /* margin: 0.625rem 0; */
+    font-size: 0.8rem; 
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 1rem;
+    top: 0.8rem;
+    overflow-y: auto;
+    max-height: 150px; /* Adjust accordingly */
+  }
+  .Path {
+    display: none;
+  }
+  .sec3 .img-container {
+    position: relative;
+    /* Adjust other properties as needed */
+  }
+
+  .flexitem {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 7rem;
+    height: 20rem;
+  }
+  .Student {
+    font-size: 0.7rem;
+    display: block;
+  }
+
+  .slick-dots li button:before {
+    color: white; /* change color to white */
+    font-size: 20px; /* increase size */
+  }
+
+  .section3user3,
+  .section3user2,
+  .section3user1 {
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2rem;
+  }
+  .WHAT-USERS-SAY-ABOUT {
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0; /* 150px */
+  }
+  .third-section {
+    margin-bottom: -10rem;
+  }
+}
+
+@media (width: 820px) {
+  .WHAT-USERS-SAY-ABOUT {
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0; /* 150px */
+  }
+
+  .description {
+    /* margin: 0.625rem 0; */
+    font-size: 0.9rem; 
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 1rem;
+    top: 0.8rem;
+    overflow-y: auto;
+    max-height: 150px; /* Adjust accordingly */
+  }
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .Path {
+    display: none;
+  }
+  .sec3 .img-container {
+    position: relative;
+  }
+
+  .flexitem {
+    width: 150%;
+    max-width: 600px;
+    margin-top: 7rem;
+    height: 14rem;
+  }
+  .Student {
+    font-size: 1rem;
+    display: block;
+  }
+
+  .slick-dots li button:before {
+    color: white; /* change color to white */
+    font-size: 20px; /* increase size */
+  }
+
+  .section3user3,
+  .section3user2,
+  .section3user1 {
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2rem;
+  }
+  .third-section {
+    margin-bottom: -10rem;
+  }
+}
+@media screen and (min-width: 881px) and (max-width: 1200px) {
+  .WHAT-USERS-SAY-ABOUT {
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0; /* 150px */
+  }
+
+  .description {
+    /* margin: 0.625rem 0; */
+    font-size: 0.9rem; 
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 1rem;
+    top: 0.8rem;
+    overflow-y: hidden;
+    max-height: 150px; 
+  }
+  .name {
+    font-size: 0.8rem;
+  }
+
+  .Path {
+    display: none;
+  }
+  .sec3 .img-container {
+    position: relative;
+  }
+
+  .flexitem {
+    width: 150%;
+    max-width: 600px;
+    margin-top: 7rem;
+    height: 24rem;
+  }
+  .Student {
+    font-size:0.6rem;
+    display: block;
+  }
+
+  .slick-dots li button:before {
+    color: white; 
+    font-size: 20px; 
+  }
+
+  .section3user3,
+  .section3user2,
+  .section3user1 {
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2rem;
+  }
+  .third-section {
+    margin-bottom: -10rem;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 880px) {
+  .WHAT-USERS-SAY-ABOUT {
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0; /* 150px */
+  }
+
+  .description {
+    font-size: 0.9rem; 
+    width:auto;
+    height: 24rem;
+    text-align: left;
+    align-items:start;
+    line-height: 1.5;
+    padding: 0 1rem;
+    top: 0.8rem;
+    max-height: 24rem; 
+    display: block
+  }
+  .name {
+    font-size: 0.8rem;
+  }
+
+  .Path {
+    display: none;
+  }
+  .sec3 .img-container {
+    position: relative;
+  }
+
+  .flexitem {
+    width: 80%;
+    max-width: 40%;
+    margin-top: 7rem;
+    height: 24rem;
+  }
+  .Student {
+    font-size:0.6rem;
+    display: block;
+  }
+
+  .slick-dots li button:before {
+    color: white; 
+    font-size: 20px; 
+    margin-bottom: -20%;
+  }
+  .testimonials-container .slick-dots{
+    position: absolute !important;
+    bottom: 4rem !important;
+  }
+
+  .section3user3,
+  .section3user2,
+  .section3user1 {
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2rem;
+  }
+  .third-section {
+    margin-bottom: -10rem;
+  }
+}
+/* 760 to 880 */

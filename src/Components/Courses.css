@@ -1,0 +1,452 @@
+.courses-container {
+  overflow-x: hidden;
+  width: 100%; 
+  margin: 0 auto; 
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+.EXPLORE-OUR-COURSES {
+  font-size: 1.5rem; 
+  font-weight: bold;
+  color: #ffffff;
+  margin: 3rem 0 3rem 0;
+  text-align: center;
+}
+
+.image-slider {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.image-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  gap: 1rem; 
+}
+
+.image-wrapper img {
+  width: 34.375rem; 
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-item {
+  position: relative;
+  display: flex;
+  width: 18.75rem; 
+  height: 30rem; 
+  margin: 0 0rem; 
+}
+
+.image-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 97%; 
+  height: 99%; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  background: #23293c;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+  border: 0.125rem solid rgb(132, 0, 255);
+  border-radius: 0.9375rem;
+}
+
+.image-item:hover .image-text {
+  opacity: 1;
+}
+
+.image-item.active {
+  display: block;
+}
+
+.COURSE-X {
+  width: 7.2rem; 
+  height: 1.875rem; 
+  font-family: Lato;
+  font-size: 1.25rem; 
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b389ff;
+  display: block;
+  margin: 0; /* Change this */
+  text-align: center; /* Change this */
+}
+
+.dots-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.dot.active {
+  background-color: #007bff;
+}
+
+.dot {
+  background-color: #ccc;
+  width: 0.75rem; 
+  height: 0.75rem; 
+  margin: 0 0.25rem; 
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.Learn-Cybersecurity {
+  width: 14.0625rem; /* 236px */
+  height: 4.6875rem; /* 75px */
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.125rem; /* 18px */
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-top: 1.25rem; /* 20px */
+  margin-left: 1.125rem; /* 18px */
+}
+
+.slick-dots li {
+  position: relative;
+}
+
+.slick-dots li button:before {
+  color: #ffffff;
+  font-size: 0.8rem;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(83, 39, 155);
+}
+
+.image-item img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 95%;
+  height: 95%;
+  object-fit: contain; 
+}
+@media screen and (min-width: 740px) and (max-width: 768px) {
+  .EXPLORE-OUR-COURSES {
+    font-size: 1.25rem;
+    margin: 0 0 3.75rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .courses-container {
+    width: 100%; 
+    margin: 0 auto; 
+    overflow-x: hidden;
+    margin-top: 5rem;
+  }
+
+  .image-item .image-text {
+    /* position: absolute; */
+    /* top: 11%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 68%; 
+    height: 70%;   */
+    position: absolute;
+    top: 0%;
+    left: 24%;
+    right: 0;
+    bottom: 0;
+    width: 39%;
+    height: 91%;
+  }
+
+  .COURSE-X {
+    width: 6.25rem; 
+    height: 1.5625rem; 
+    font-size: 1rem; 
+    display: block;
+    margin-top: 2.25rem; 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Learn-Cybersecurity {
+    width: 11.25rem; 
+    height: 3.75rem; 
+    font-size: 1rem; 
+    margin-top: 0.5rem; 
+    margin-bottom: 0.5rem; 
+  }
+
+  .image-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  .image-wrapper img {
+    width: 85%; 
+    height: auto; 
+  }
+  .image-item {
+    width: auto;
+  }
+  .image-text {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    border-width: 0.0625rem;
+    border-radius: 0.3125rem;
+  }
+  .image-item .img{
+    object-fit: contain !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 740px) {
+  .EXPLORE-OUR-COURSES {
+    font-size: 1.25rem;
+    margin: 0 0 3.75rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  .courses-container {
+    width: 100%; 
+    margin: 0 auto; 
+    overflow-x: hidden;
+    margin-top: 5rem;
+  }
+
+  .image-item .image-text {
+    position: absolute;
+    top: 0%;
+    left: 13%;
+    right: 0;
+    bottom: 0;
+    width: 57%;
+    height: 91%;
+  }
+
+  .COURSE-X {
+    width: 6.25rem; 
+    height: 1.5625rem; 
+    font-size: 1rem; 
+    display: block;
+    margin-top: 2.25rem; 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Learn-Cybersecurity {
+    width: 11.25rem; 
+    height: 3.75rem; 
+    font-size: 1rem; 
+    margin-top: 0.5rem; 
+    margin-bottom: 0.5rem; 
+  }
+
+  .image-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  .image-wrapper img {
+    width: 85%; 
+    height: auto; 
+  }
+  .image-item {
+    width: auto;
+  }
+  .image-text {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    border-width: 0.0625rem;
+    border-radius: 0.3125rem;
+  }
+  .image-item .img{
+    object-fit: contain !important;
+  }
+}
+@media (width: 820px) {
+  .fourth-section {
+    margin-bottom: 5rem;
+  }
+  .EXPLORE-OUR-COURSES {
+    font-size: 1.25rem;
+    margin: 0 0 3.75rem;
+  }
+  .image-item .image-text {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 58%; 
+    height: 72%; 
+  }
+  .courses-container {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 10px;
+  }
+
+  .COURSE-X {
+    width: 6.25rem;
+    height: 1.5625rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .Learn-Cybersecurity {
+    width: 11.25rem;
+    height: 3.75rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-wrapper img {
+    width: 85%; 
+    height: auto; 
+  }
+
+  .image-text {
+    padding: 1rem 2.5rem; 
+    font-size: 1rem; 
+    border-width: 0.0625rem; 
+    border-radius: 0.3125rem; 
+  }
+  .image-item {
+    overflow: hidden;
+    width: 100%; 
+  }
+  .image-item img {
+    max-height: 80%;
+    width: 85%; 
+    height: auto; 
+  }
+
+  .slick-list {
+    width: 90%; 
+    margin: 0 auto; 
+  }
+}
+
+@media (max-width: 480px)  {
+  .EXPLORE-OUR-COURSES {
+    font-size: 1.25rem;
+    margin: 0 0 3.75rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+  }
+  .image-item .image-text {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 60%; 
+    height: 72%; 
+  }
+
+  .courses-container {
+    width: 100%; 
+    margin: 0 auto; 
+    overflow-x: hidden;
+    margin-top: 5rem;
+  }
+
+  .image-item .image-text {
+    position: absolute;
+    top:0%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    width: 70%; 
+    height: 90%;  
+  }
+
+  .COURSE-X {
+    width: 6.25rem; 
+    height: 1.5625rem; 
+    font-size: 1rem; 
+    display: block;
+    margin-top: 2.25rem; 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Learn-Cybersecurity {
+    width: 11.25rem; 
+    height: 3.75rem; 
+    font-size: 1rem; 
+    margin-top: 0.5rem; 
+    margin-bottom: 0.5rem; 
+  }
+
+  .image-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  .image-wrapper img {
+    width: 85%; 
+    height: auto; 
+  }
+  .image-item {
+    width: auto;
+  }
+  .image-text {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    border-width: 0.0625rem;
+    border-radius: 0.3125rem;
+  }
+  .image-item .img{
+    object-fit: contain !important;
+  }
+
+  .fourth-section{
+    margin-bottom: 40%;
+  }
+}
+/* In your CSS file or component */
+.slick-slider {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.slick-slide {
+  flex: 0 0 auto;
+  margin-right: 0; /* Remove right margin between slides */
+  padding-right: 0; /* Remove right padding between slides */
+}
+
+
